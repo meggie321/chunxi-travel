@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {body {@apply m-0 bg-[#FAF9F6] text-stone-800 antialiased;} button {@apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2;} ::selection {@apply bg-orange-100;} }
+.amap-poi-dot { width: 16px; height: 16px; border: 3px solid #fff; border-radius: 50%; background: #ff6b35; box-shadow: 0 2px 8px rgb(28 25 23 / 35%); cursor: pointer; transition: transform 150ms ease; }
+.amap-poi-dot:hover { transform: scale(1.35); }
+.amap-poi-cluster { display: grid; place-items: center; border: 3px solid #fff; border-radius: 50%; background: #ff6b35; box-shadow: 0 3px 12px rgb(28 25 23 / 28%); color: white; font: 700 13px/1 system-ui, sans-serif; }
+.amap-poi-window { display: flex; max-width: 260px; flex-direction: column; gap: 4px; padding: 4px 2px; color: #292524; font: 12px/1.5 system-ui, "Microsoft YaHei", sans-serif; }
+.amap-poi-window strong { font-size: 14px; }
+.amap-poi-window span { color: #f05c2b; }
+.amap-poi-window small { color: #78716c; }

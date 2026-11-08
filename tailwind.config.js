@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{colors:{orange:{500:'#FF6B35',600:'#E65320'}},keyframes:{appear:{from:{opacity:0,transform:'translateY(8px)'},to:{opacity:1,transform:'translateY(0)'}}},animation:{appear:'appear .3s ease-out'}}},plugins:[]};
